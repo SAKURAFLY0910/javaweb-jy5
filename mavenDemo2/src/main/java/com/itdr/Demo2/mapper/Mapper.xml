@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace：命名空间，绑定接口-->
+<mapper namespace="com.itdr.Demo2.mapper.OrderMapper">
+    <!--id是接口方法名-->
+    <!--resultType是返回值类型-->
+    <!--parameterType传参类型-->
+    <select id="getAll" resultType="com.itdr.pojo.Order" >
+    select orderNo,productName from `order`
+    </select>
+
+    <update id="updates" parameterType="com.itdr.pojo.Order">
+     update  `order` set status=#{param1} where id=#{param2}
+    </update>
+
+    <insert id="adds" parameterType="com.itdr.pojo.Order">
+        insert into `order`(status,orderNo,payment)values (#{param1},#{param2},#{param3})
+    </insert>
+  <delete id="det" parameterType="int" >
+      delete  from  `order` where id=#{id}
+  </delete>
+
+</mapper>

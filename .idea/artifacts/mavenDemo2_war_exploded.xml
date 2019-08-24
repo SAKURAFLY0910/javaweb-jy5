@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mavenDemo2:war exploded">
+    <output-path>$PROJECT_DIR$/mavenDemo2/target/mavenDemo2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mavenDemo2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.2" />
+          <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.11" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.6" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.6" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.mybatis.generator:mybatis-generator-core:1.3.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/mavenDemo2/target/mavenDemo2/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mavenDemo2/web/Web" />
+    </root>
+  </artifact>
+</component>

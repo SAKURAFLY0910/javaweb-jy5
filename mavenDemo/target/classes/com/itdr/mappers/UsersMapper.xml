@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itdr.mappers.UsersMapper">
+  <resultMap id="BaseResultMap" type="com.itdr.pojo.Users">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uname" jdbcType="VARCHAR" property="uname" />
+    <result column="psd" jdbcType="VARCHAR" property="psd" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="stats" jdbcType="INTEGER" property="stats" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, uname, psd, tel, stats, type
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from users
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from users
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.itdr.pojo.Users">
+    insert into users (id, uname, psd, 
+      tel, stats, type)
+    values (#{id,jdbcType=INTEGER}, #{uname,jdbcType=VARCHAR}, #{psd,jdbcType=VARCHAR}, 
+      #{tel,jdbcType=VARCHAR}, #{stats,jdbcType=INTEGER}, #{type,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.itdr.pojo.Users">
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="uname != null">
+        uname,
+      </if>
+      <if test="psd != null">
+        psd,
+      </if>
+      <if test="tel != null">
+        tel,
+      </if>
+      <if test="stats != null">
+        stats,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="uname != null">
+        #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="psd != null">
+        #{psd,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null">
+        #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="stats != null">
+        #{stats,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.itdr.pojo.Users">
+    update users
+    <set>
+      <if test="uname != null">
+        uname = #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="psd != null">
+        psd = #{psd,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null">
+        tel = #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="stats != null">
+        stats = #{stats,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.itdr.pojo.Users">
+    update users
+    set uname = #{uname,jdbcType=VARCHAR},
+      psd = #{psd,jdbcType=VARCHAR},
+      tel = #{tel,jdbcType=VARCHAR},
+      stats = #{stats,jdbcType=INTEGER},
+      type = #{type,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.itdr.pojo.Users">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uname" jdbcType="VARCHAR" property="uname" />
+    <result column="psd" jdbcType="VARCHAR" property="psd" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="stats" jdbcType="INTEGER" property="stats" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, uname, psd, tel, stats, type
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from users
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from users
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.itdr.pojo.Users">
+    insert into users (id, uname, psd, 
+      tel, stats, type)
+    values (#{id,jdbcType=INTEGER}, #{uname,jdbcType=VARCHAR}, #{psd,jdbcType=VARCHAR}, 
+      #{tel,jdbcType=VARCHAR}, #{stats,jdbcType=INTEGER}, #{type,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.itdr.pojo.Users">
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="uname != null">
+        uname,
+      </if>
+      <if test="psd != null">
+        psd,
+      </if>
+      <if test="tel != null">
+        tel,
+      </if>
+      <if test="stats != null">
+        stats,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="uname != null">
+        #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="psd != null">
+        #{psd,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null">
+        #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="stats != null">
+        #{stats,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.itdr.pojo.Users">
+    update users
+    <set>
+      <if test="uname != null">
+        uname = #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="psd != null">
+        psd = #{psd,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null">
+        tel = #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="stats != null">
+        stats = #{stats,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.itdr.pojo.Users">
+    update users
+    set uname = #{uname,jdbcType=VARCHAR},
+      psd = #{psd,jdbcType=VARCHAR},
+      tel = #{tel,jdbcType=VARCHAR},
+      stats = #{stats,jdbcType=INTEGER},
+      type = #{type,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.itdr.pojo.Users">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uname" jdbcType="VARCHAR" property="uname" />
+    <result column="psd" jdbcType="VARCHAR" property="psd" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="stats" jdbcType="INTEGER" property="stats" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, uname, psd, tel, stats, type
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from users
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from users
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.itdr.pojo.Users">
+    insert into users (id, uname, psd, 
+      tel, stats, type)
+    values (#{id,jdbcType=INTEGER}, #{uname,jdbcType=VARCHAR}, #{psd,jdbcType=VARCHAR}, 
+      #{tel,jdbcType=VARCHAR}, #{stats,jdbcType=INTEGER}, #{type,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.itdr.pojo.Users">
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="uname != null">
+        uname,
+      </if>
+      <if test="psd != null">
+        psd,
+      </if>
+      <if test="tel != null">
+        tel,
+      </if>
+      <if test="stats != null">
+        stats,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="uname != null">
+        #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="psd != null">
+        #{psd,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null">
+        #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="stats != null">
+        #{stats,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.itdr.pojo.Users">
+    update users
+    <set>
+      <if test="uname != null">
+        uname = #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="psd != null">
+        psd = #{psd,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null">
+        tel = #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="stats != null">
+        stats = #{stats,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.itdr.pojo.Users">
+    update users
+    set uname = #{uname,jdbcType=VARCHAR},
+      psd = #{psd,jdbcType=VARCHAR},
+      tel = #{tel,jdbcType=VARCHAR},
+      stats = #{stats,jdbcType=INTEGER},
+      type = #{type,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.itdr.pojo.Users">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uname" jdbcType="VARCHAR" property="uname" />
+    <result column="psd" jdbcType="VARCHAR" property="psd" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="stats" jdbcType="INTEGER" property="stats" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, uname, psd, tel, stats, type
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from users
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from users
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.itdr.pojo.Users">
+    insert into users (id, uname, psd, 
+      tel, stats, type)
+    values (#{id,jdbcType=INTEGER}, #{uname,jdbcType=VARCHAR}, #{psd,jdbcType=VARCHAR}, 
+      #{tel,jdbcType=VARCHAR}, #{stats,jdbcType=INTEGER}, #{type,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.itdr.pojo.Users">
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="uname != null">
+        uname,
+      </if>
+      <if test="psd != null">
+        psd,
+      </if>
+      <if test="tel != null">
+        tel,
+      </if>
+      <if test="stats != null">
+        stats,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="uname != null">
+        #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="psd != null">
+        #{psd,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null">
+        #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="stats != null">
+        #{stats,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.itdr.pojo.Users">
+    update users
+    <set>
+      <if test="uname != null">
+        uname = #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="psd != null">
+        psd = #{psd,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null">
+        tel = #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="stats != null">
+        stats = #{stats,jdbcType=INTEGER},
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.itdr.pojo.Users">
+    update users
+    set uname = #{uname,jdbcType=VARCHAR},
+      psd = #{psd,jdbcType=VARCHAR},
+      tel = #{tel,jdbcType=VARCHAR},
+      stats = #{stats,jdbcType=INTEGER},
+      type = #{type,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
