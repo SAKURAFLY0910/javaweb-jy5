@@ -1,8 +1,10 @@
 import org.junit.Test;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Scanner;
 
 public class test {
 
@@ -16,5 +18,13 @@ public class test {
         String format1 = String.format("%tF", time);
         String format2 = String.format("%tT", time);
         System.out.println(format1+"  "+format2);
+    }
+
+    @Test
+    public void ceshi2(){
+        File file = new File("G:\\demo\\a.txt");
+//        File s=new File("G:\\","a.txt");
+        System.out.println(file);
+
     }
 }

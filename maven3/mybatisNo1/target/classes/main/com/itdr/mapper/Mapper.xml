@@ -7,11 +7,30 @@
     <!--id是接口方法名-->
     <!--resultType是返回值类型-->
     <!--parameterType传参类型-->
+    <!--查询全部数据-->
     <select id="getAll" resultType="main.com.itdr.pojo.Order" >
     select * from `order`
     </select>
-
+    <!--查询满足一个条件的数据-->
     <select id="getone" resultType="main.com.itdr.pojo.Order" parameterType="integer">
     select * from `order` where id=#{param1}
     </select>
+    <!--查询满足两个条件数据-->
+    <select id="gettwo" resultType="main.com.itdr.pojo.Order" parameterType="integer">
+    select * from `order` where id=#{param1} and  status=#{param2}
+    </select>
+<!--修改数据-->
+    <update id="updates" parameterType="integer">
+        update  `order` set status=#{param2} where id=#{param1}
+    </update>
+
+    <!--//增加数据-->
+    <insert id="adds" parameterType="main.com.itdr.pojo.Order" >
+        insert into `order`(status,orderNo,createTime)values(#{param1},#{param2},#{param3})
+    </insert>
+
+    <!--删除数据-->
+    <delete id="detele"  parameterType="main.com.itdr.pojo.Order">
+        delete from `order` where OrderNo=#{param1}
+    </delete>
 </mapper>
