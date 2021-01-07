@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc388ecd-476c-4dec-823a-9e4ae3f507be" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/测试1/src/ceshi/ceshidemo.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/Service/Userservice1.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/Service/Userservice2.java" />
+        <option value="$PROJECT_DIR$/测试1/resources/da.properties" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/Utils/PropertiesUtils.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/Utils/FANSHE.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/meiju.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/A.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/Utils/Test.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/Order.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/ceshi.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi2.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi3.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi4.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi5.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi9.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi10.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi11.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi8.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi7.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi6.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi13.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/trys/ceshi12.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/er/sworddemo/Sword.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/er/sworddemo/FireSword.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/er/peopledemo/peoplewithpeople.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/er/peopledemo/people.java" />
+        <option value="$PROJECT_DIR$/测试1/Test/test.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/Car.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/taxi.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/HomeCar.java" />
+        <option value="$PROJECT_DIR$/测试1/src/com/itdr/testdemo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Developing_Software/maven/apache-maven-3.5.3-bin/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="E:\Developing_Software\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="401" />
+    <option name="y" value="260" />
+    <option name="width" value="972" />
+    <option name="height" value="668" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="测试" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="测试" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="测试" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GITHUB\javaweb-jy5\测试\测试1\Utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="testdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itdr.testdemo" />
+      <module name="测试1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itdr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_测试" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53329" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testdemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc388ecd-476c-4dec-823a-9e4ae3f507be" name="Default" comment="" />
+      <created>1565936444946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565936444946</updated>
+      <workItem from="1565936451822" duration="1801000" />
+      <workItem from="1565938295032" duration="458000" />
+      <workItem from="1565938785748" duration="771000" />
+      <workItem from="1565941457339" duration="4000" />
+      <workItem from="1566210056736" duration="6225000" />
+      <workItem from="1566262514740" duration="20000" />
+      <workItem from="1566298628680" duration="90000" />
+      <workItem from="1566367864946" duration="4000" />
+      <workItem from="1566475116984" duration="21000" />
+      <workItem from="1566542169692" duration="1727000" />
+      <workItem from="1566555093004" duration="125000" />
+      <workItem from="1566629285591" duration="83000" />
+      <workItem from="1566647873736" duration="3529000" />
+      <workItem from="1566699177106" duration="3768000" />
+      <workItem from="1566721898263" duration="937000" />
+      <workItem from="1566723066436" duration="14794000" />
+      <workItem from="1566778075961" duration="42000" />
+      <workItem from="1566778126926" duration="6023000" />
+      <workItem from="1567748117246" duration="4363000" />
+      <workItem from="1567837718257" duration="202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_ceshi1 - 2019.08.23 at 14h 53m 13s.xml">
+      <configuration name="test.ceshi1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi1 - 2019.08.23 at 14h 54m 30s.xml">
+      <configuration name="test.ceshi1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi1 - 2019.08.23 at 14h 54m 39s.xml">
+      <configuration name="test.ceshi1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi1 - 2019.08.24 at 14h 49m 04s.xml">
+      <configuration name="test.ceshi1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi1 - 2019.08.24 at 22h 41m 34s.xml">
+      <configuration name="test.ceshi1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi2 - 2019.08.24 at 22h 43m 12s.xml">
+      <configuration name="test.ceshi2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi2 - 2019.08.24 at 22h 43m 44s.xml">
+      <configuration name="test.ceshi2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi2 - 2019.08.24 at 22h 44m 22s.xml">
+      <configuration name="test.ceshi2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi2 - 2019.08.24 at 22h 44m 40s.xml">
+      <configuration name="test.ceshi2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_ceshi2 - 2019.08.24 at 22h 46m 04s.xml">
+      <configuration name="test.ceshi2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44987000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.06759443" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20305343" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33955857" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3293718" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" sideWeight="0.5008489" side_tool="true" weight="0.25419846" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3293718" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3293718" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20373514" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3293718" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4540943" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" sideWeight="0.5008489" side_tool="true" weight="0.25419846" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33955857" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/测试1/src/com/itdr/Controller/UserController.java</url>
+          <line>17</line>
+          <properties class="com.itdr.Controller.UserController" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/测试1/src/com/trys/ceshi13.java</url>
+          <line>5</line>
+          <properties class="com.trys.ceshi13" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/测试1/src/com/itdr/Utils/Test.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/测试1/src/com/trys/ceshi3.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/A.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/meiju.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Utils/FANSHE.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Utils/PropertiesUtils.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/resources/da.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Service/Userservice1.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Service/Userservice2.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/A.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/ceshi/ceshidemo.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/ceshi/ceshidemo.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/ceshi/ceshidemo.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/ceshi/ceshidemo.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/ceshi/ceshidemo.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Service/Userservice1.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Service/Userservice2.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/resources/da.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Utils/PropertiesUtils.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Controller/UserController.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Utils/Test.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Utils/FANSHE.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/meiju.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/测试1.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/A.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi2.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi3.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi4.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi5.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi11.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi10.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi7.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi8.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi6.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi9.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi12.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/trys/ceshi13.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/er/sworddemo/Sword.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/er/sworddemo/FireSword.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/er/peopledemo/peoplewithpeople.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/er/peopledemo/people.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/Order.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr.java" />
+    <entry file="file://$PROJECT_DIR$/测试1/Test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/taxi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/HomeCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/testdemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试1/src/com/itdr/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>测试1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

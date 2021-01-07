@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-4.0.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+http://www.springframework.org/schema/tx
+http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+http://www.springframework.org/schema/util
+http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+<!--这是MYBATIS_SPRING整合模块整合-->
+
+    <!--开启注解 扫包-->
+    <context:component-scan base-package="main.Mvc"/>
+
+
+    <!--<context:exclude-filter type="annotation" expression=""/>-->
+
+    <!--加载配置文件-->
+    <context:property-placeholder location="db.properties"/>
+    <!--数据库连接池-->
+    <!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+        <!--<property name="DriverClassName" value="${db.driver}"/>-->
+        <!--<property name="Url" value="${db.url}"/>-->
+        <!--<property name="Username" value="${db.username}"/>-->
+        <!--<property name="Password" value="${db.password}"/>-->
+    <!--</bean>-->
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="${db.driver}"/>
+        <property name="url" value="${db.url}"/>
+        <property name="username" value="${db.username}"/>
+        <property name="password" value="${db.password}"/>
+        <property name="maxActive" value="10"/>
+        <property name="maxIdle" value="5"/>
+    </bean>
+
+
+    <!-- 配置SqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 配置mybatis核心配置文件 -->
+        <property name="configLocation" value="classpath:sqlMapConfig.xml"/>
+        <!-- 配置数据源 -->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--原始开发方式-->
+    <!--次方啊需要实现类-->
+    <!--<bean id="indendaoIm" class="main.spaing_mybatis.dao.IndendaoIm">-->
+        <!--&lt;!&ndash;配置sqlsession工厂&ndash;&gt;-->
+        <!--<property name="sqlSessionFactory" ref="sqlSessionFactory"/>-->
+    <!--</bean>-->
+
+    <!-- Mapper代理的方式开发方式一，配置Mapper代理对象 -->
+    <!--<bean id="indexdao2" class="org.mybatis.spring.mapper.MapperFactoryBean">-->
+        <!--&lt;!&ndash; 配置Mapper接口 &ndash;&gt;-->
+        <!--<property name="mapperInterface" value="main.spaing_mybatis.dao.Indexdao" />-->
+        <!--&lt;!&ndash; 配置sqlSessionFactory &ndash;&gt;-->
+        <!--<property name="sqlSessionFactory" ref="sqlSessionFactory" />-->
+    <!--</bean>-->
+
+    <!-- Mapper代理的方式开发方式二，扫描包方式配置代理 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 配置Mapper接口 -->
+        <property name="basePackage" value="main.Mvc.dao" />
+    </bean>
+
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

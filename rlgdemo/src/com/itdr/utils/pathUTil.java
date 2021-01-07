@@ -7,7 +7,7 @@ public class pathUTil {
 
         String s1=path.replace(".","/");
 
-        String sar[]=s1.split("/");
+        String sar[]=s1.split("/"); 
 
         return sar[1];
     }

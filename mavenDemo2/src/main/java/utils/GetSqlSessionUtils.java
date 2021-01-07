@@ -11,7 +11,7 @@ import java.io.InputStream;
 public class GetSqlSessionUtils {
   private static  SqlSessionFactory Factory;
   static {
-      String resource = "sqlMapConfig2.xml";
+      String resource = "sqlMapConfig.xml";
       InputStream in = null;
       try {
           in = Resources.getResourceAsStream(resource);

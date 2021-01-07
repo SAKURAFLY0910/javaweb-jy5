@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <!--<typeAliases>-->
+    <!--&lt;!&ndash;实体类位置&ndash;&gt;-->
+    <!--<package name="main.spaing_mybatis.pojo"/>-->
+  <!--</typeAliases>-->
+
+  <!--<mappers>-->
+    <!--&lt;!&ndash;加载映射文件&ndash;&gt;-->
+    <!--<mapper resource="main/spaing_mybatis/dao/Indexdao.xml"/>-->
+  <!--</mappers>-->
+
+</configuration>

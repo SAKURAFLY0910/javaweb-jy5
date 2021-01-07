@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace：命名空间，绑定接口-->
+<mapper namespace="main.Mvc.dao.Indexdao">
+    <!--id是接口方法名-->
+    <!--resultType是返回值类型-->
+    <!--parameterType传参类型-->
+    <select id="getone" resultType="main.Mvc.pojo.Product" parameterType="integer" >
+    select * from neuedu_product where id=#{id}
+    </select>
+
+
+</mapper>

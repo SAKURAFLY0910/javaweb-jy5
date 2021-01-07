@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!--namespace：命名空间，绑定接口-->
+<!--namespace：命名空间，绑定dao接口-->
 <mapper namespace="com.itdr.Demo2.mapper.OrderMapper">
     <!--id是接口方法名-->
     <!--resultType是返回值类型-->

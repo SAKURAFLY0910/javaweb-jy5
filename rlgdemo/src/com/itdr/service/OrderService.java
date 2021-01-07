@@ -32,16 +32,13 @@ public class OrderService {
     }
 
     //查询订购单
-
     public ResponseCode searchDo(String orderNo) {
         ResponseCode rs = new ResponseCode();
         if (orderNo == null || orderNo.equals("")) {
             rs = ResponseCode.defeatedRS(Const.PRODUCT_PARAMETER_CODE, Const.PRODUCT_PARAMETER_MSG);
             return rs;
         }
-
         Order li = pd.detailDo(orderNo);
-
         if (li==null){
             rs.setStatus(1);
             rs.setData("没有找到订单！");
